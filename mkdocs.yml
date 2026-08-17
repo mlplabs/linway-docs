@@ -34,7 +34,7 @@ extra:
       link: /ru/      # Ссылка на русскую версию
       lang: ru
     - name: English # Название в переключателе
-      link: /en/      # Ссылка на английскую версию
+      link: /      # Ссылка на английскую версию
       lang: en       # Код языка
     
 plugins:
@@ -45,7 +45,7 @@ plugins:
       languages: # ИСПРАВЛЕНО: теперь это список (с дефисами перед - locale)
         - locale: en
           name: English
-          link: /en/
+          link: /
           build: true
           default: true
           # Навигация для английской версии (смотрит в docs/en/)
