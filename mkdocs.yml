@@ -48,7 +48,7 @@ nav:
 
 plugins:
   - search
-  - i18n:
+  - static-i18n:
       default_language: en
       languages:
         ru:
