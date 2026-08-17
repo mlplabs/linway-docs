@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.lynway.org/</loc>
+        <lastmod>2026-08-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.lynway.org/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.lynway.org/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.lynway.org/about/</loc>
+        <lastmod>2026-08-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.lynway.org/about/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.lynway.org/ru/about/"/>
+    </url>
+    <url>
+        <loc>https://docs.lynway.org/ru/</loc>
+        <lastmod>2026-08-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.lynway.org/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.lynway.org/"/>
+    </url>
+    <url>
+        <loc>https://docs.lynway.org/ru/about/</loc>
+        <lastmod>2026-08-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.lynway.org/ru/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.lynway.org/about/"/>
+    </url>
+</urlset>
