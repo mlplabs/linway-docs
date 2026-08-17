@@ -38,7 +38,7 @@ extra:
     
 # Наша навигация по сайту
 nav:
-  - 'Home': 'index.md'
+  - Home: index.md
 #  - 'Начало работы':
 #    - 'Первые шаги': 'getting-started/first-steps.md'
 #    - 'Наша философия данных': 'getting-started/data-philosophy.md'
