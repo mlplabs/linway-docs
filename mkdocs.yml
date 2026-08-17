@@ -38,7 +38,7 @@ extra:
     
 # Наша навигация по сайту
 nav:
-  - 'Главная': 'index.md'
+  - 'Home': 'index.md'
 #  - 'Начало работы':
 #    - 'Первые шаги': 'getting-started/first-steps.md'
 #    - 'Наша философия данных': 'getting-started/data-philosophy.md'
@@ -54,12 +54,11 @@ plugins:
         ru:
           name: Русский
           link: /ru/
+          nav_translations:
+            Home: Главная
         en:
           name: English
           link: /
-          nav_translations:
-            Главная: Home
-            О проекте: About Us
 
 
 # Расширения для Markdown
