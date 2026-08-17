@@ -55,7 +55,7 @@ plugins:
           name: Русский
           link: /ru/
           nav_translations:
-            Home: Главная
+            Home: Главнаяя
         en:
           name: English
           link: /
