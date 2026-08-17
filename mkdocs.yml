@@ -1,7 +1,5 @@
 site_url: https://docs.lynway.org
-# Название сайта, отображается в шапке
 site_name: Linway Docs
-# Описание для мета-тегов SEO
 site_description: 'Linway project documentation'
 
 # Настройка темы
