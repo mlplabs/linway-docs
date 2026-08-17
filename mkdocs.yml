@@ -1,0 +1,57 @@
+site_url: https://docs.lynway.org
+# Название сайта, отображается в шапке
+site_name: Linway Docs
+# Описание для мета-тегов SEO
+site_description: 'Linway project documentation'
+
+# Настройка темы
+theme:
+  name: material
+    features:
+    - navigation.tabs # Навигация в виде табов
+    - navigation.sections # Секции в навигации
+    - toc.integrate # Интегрировать оглавление страницы в навигацию
+    - search.suggest # Подсказки при поиске
+    - content.code.copy # Кнопка "копировать" для блоков кода
+  # Настраиваем палитру и переключатель тем
+  palette:
+    - scheme: default # Светлая тема
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/brightness-7
+        name: Переключиться на темную тему
+    - scheme: slate # Темная тема
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/brightness-4
+        name: Переключиться на светлую тему
+
+# Секция для мультиязычности
+extra:
+  alternate:
+    - name: Русский # Название в переключателе
+      link: /ru/      # Ссылка на русскую версию
+      lang: ru
+    - name: English # Название в переключателе
+      link: ./      # Ссылка на английскую версию
+      lang: en       # Код языка
+    
+# Наша навигация по сайту
+nav:
+  - 'Главная': 'index.md'
+#  - 'Начало работы':
+#    - 'Первые шаги': 'getting-started/first-steps.md'
+#    - 'Наша философия данных': 'getting-started/data-philosophy.md'
+#  - 'Ключевые возможности':
+#    - 'Анализ сегментов': 'core-features/segment-analysis.md'
+    # ... и так далее
+
+# Расширения для Markdown
+markdown_extensions:
+  - admonition # Блоки !!! note, !!! warning
+  - pymdownx.details # Сворачиваемые блоки
+  - pymdownx.superfences # Вложенные блоки кода
+  - pymdownx.tabbed: # Табы
+      alternate_style: true
