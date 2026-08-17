@@ -46,6 +46,22 @@ nav:
 #    - 'Анализ сегментов': 'core-features/segment-analysis.md'
     # ... и так далее
 
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        ru:
+          name: Русский
+          link: /ru/
+        en:
+          name: English
+          link: /
+          nav_translations:
+            Главная: Home
+            О проекте: About Us
+
+
 # Расширения для Markdown
 markdown_extensions:
   - admonition # Блоки !!! note, !!! warning
@@ -53,3 +69,5 @@ markdown_extensions:
   - pymdownx.superfences # Вложенные блоки кода
   - pymdownx.tabbed: # Табы
       alternate_style: true
+      
+      
