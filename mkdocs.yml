@@ -7,7 +7,7 @@ site_description: 'Linway project documentation'
 # Настройка темы
 theme:
   name: material
-    features:
+  features:
     - navigation.tabs # Навигация в виде табов
     - navigation.sections # Секции в навигации
     - toc.integrate # Интегрировать оглавление страницы в навигацию
