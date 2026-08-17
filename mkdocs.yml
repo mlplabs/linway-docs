@@ -1,13 +1,13 @@
 site_url: https://docs.lynway.org
 site_name: Linway Docs
-site_description: 'Linway project documentation'
+site_description: 'Linway WMS project documentation'
 
 # Настройка темы
 theme:
   name: material
   language: en # Дефолтный язык интерфейса
   features:
-    - navigation.tabs # Навигация в виде табов
+#    - navigation.tabs # Навигация в виде табов
     - navigation.sections # Секции в навигации
     - toc.integrate # Интегрировать оглавление страницы в навигацию
     - search.suggest # Подсказки при поиске
@@ -34,7 +34,7 @@ extra:
       link: /ru/      # Ссылка на русскую версию
       lang: ru
     - name: English # Название в переключателе
-      link: /      # Ссылка на английскую версию
+      link: /en/      # Ссылка на английскую версию
       lang: en       # Код языка
     
 plugins:
@@ -45,7 +45,7 @@ plugins:
       languages: # ИСПРАВЛЕНО: теперь это список (с дефисами перед - locale)
         - locale: en
           name: English
-          link: /
+          link: /en/
           build: true
           default: true
           # Навигация для английской версии (смотрит в docs/en/)
