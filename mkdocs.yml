@@ -5,6 +5,7 @@ site_description: 'Linway project documentation'
 # Настройка темы
 theme:
   name: material
+  language: en # Дефолтный язык интерфейса
   features:
     - navigation.tabs # Навигация в виде табов
     - navigation.sections # Секции в навигации
@@ -33,33 +34,33 @@ extra:
       link: /ru/      # Ссылка на русскую версию
       lang: ru
     - name: English # Название в переключателе
-      link: ./      # Ссылка на английскую версию
+      link: /en/      # Ссылка на английскую версию
       lang: en       # Код языка
     
-# Наша навигация по сайту
-nav:
-  - Home: index.md
-#  - 'Начало работы':
-#    - 'Первые шаги': 'getting-started/first-steps.md'
-#    - 'Наша философия данных': 'getting-started/data-philosophy.md'
-#  - 'Ключевые возможности':
-#    - 'Анализ сегментов': 'core-features/segment-analysis.md'
-    # ... и так далее
-
 plugins:
   - search
-  - static-i18n:
+  - i18n:
+      docs_structure: folder # Переключаем плагин в режим папок
       default_language: en
-      languages:
-        ru:
-          name: Русский
-          link: /ru/
-          nav_translations:
-            Home: Главнаяя
-        en:
+      languages: # ИСПРАВЛЕНО: теперь это список (с дефисами перед - locale)
+        - locale: en
           name: English
           link: /
-
+          build: true
+          default: true
+          # Навигация для английской версии (смотрит в docs/en/)
+          nav:
+            - Home: index.md
+            - About: about.md
+            
+        - locale: ru
+          name: Русский
+          link: /ru/
+          build: true
+          # Навигация для русской версии (смотрит в docs/ru/)
+          nav:
+            - Главная: index.md
+            - О проекте: about.md
 
 # Расширения для Markdown
 markdown_extensions:
