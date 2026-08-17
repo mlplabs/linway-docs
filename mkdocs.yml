@@ -45,7 +45,7 @@ plugins:
       languages: # ИСПРАВЛЕНО: теперь это список (с дефисами перед - locale)
         - locale: en
           name: English
-          link: /
+          link: /en/
           build: true
           default: true
           # Навигация для английской версии (смотрит в docs/en/)
