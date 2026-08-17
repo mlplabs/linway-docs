@@ -1,1 +1,1 @@
-# linway-docs
+# Documentation of the Linway WMS project
